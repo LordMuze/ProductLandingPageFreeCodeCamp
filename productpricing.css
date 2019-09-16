@@ -1,0 +1,56 @@
+.productPricingContainer{
+  font-size: 100%;
+}
+
+#productrubik{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  /**/
+  margin-top: 40px;
+  padding: 3em;
+  /**/
+  background-color: white;
+  /**/
+  border-color: black;
+  border-width: 0.2em;
+  border-style: dashed;
+  margin: 1em;
+}
+#productcontent{
+  display: inline-block;
+  text-align: center;
+}
+#productcontent > p{
+  color: black;
+  font-size: 100%;
+  font-weight: normal;
+  max-width: 550px;
+  text-align: left;
+}
+#productcontent > h3{
+  color: black;
+  font-size: 270%;
+}
+.threecubeimg{
+  display: inline-block;
+  width: 40%;
+  height: 40%;
+}
+#button{
+  text-decoration: none;
+}
+#button > div{
+  max-width: 200px;
+  background-color: blue;
+  padding: 0.8em;
+
+  color: white;
+  font-size: 120%;
+  text-decoration: none;
+
+  border-radius: 2px;
+  border-color: blue;
+}

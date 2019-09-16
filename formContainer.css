@@ -1,0 +1,55 @@
+.formContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: #252625;
+
+
+}
+
+.form{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  border-color: red;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 2em;
+}
+
+.formContainer > h1{
+  display: inline-block;
+  color: blue;
+}
+#formsubmissioncontainer{
+  margin: auto;
+  margin-top: 1em;
+}
+#email{
+/**/
+}
+#submit{
+/**/
+}
+.email{
+
+}
+.submit{
+/*https://static.thenounproject.com/png/39130-200.png*/ /*icon*/
+
+}
+
+.headerInline{
+
+}
+.iconbutton > img{
+  height: 1em;
+  width: 1em;
+}
+#formmedia{
+
+  width: 60%;
+  height: 60%;
+}
