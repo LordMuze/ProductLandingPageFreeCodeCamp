@@ -1,56 +1,41 @@
 .productPricingContainer{
   font-size: 100%;
+  margin-top: 70px;
 }
 
-#productrubik{
+#product-wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  text-align: center;
-  /**/
-  margin-top: 40px;
+  justify-content: space-around;
+  margin: 2em;
   padding: 3em;
-  /**/
-  background-color: white;
-  /**/
-  border-color: black;
-  border-width: 0.2em;
-  border-style: dashed;
-  margin: 1em;
 }
-#productcontent{
-  display: inline-block;
+#content-wrapper{
   text-align: center;
 }
-#productcontent > p{
+#content-wrapper > p{
   color: black;
-  font-size: 100%;
   font-weight: normal;
   max-width: 550px;
   text-align: left;
 }
-#productcontent > h3{
+#content-wrapper > h3{
   color: black;
-  font-size: 270%;
+  font-size: 300%;
 }
-.threecubeimg{
-  display: inline-block;
+.ProductImage{
   width: 40%;
   height: 40%;
 }
-#button{
+#button-wrapper{
   text-decoration: none;
 }
-#button > div{
+.button{
   max-width: 200px;
   background-color: blue;
   padding: 0.8em;
-
   color: white;
   font-size: 120%;
-  text-decoration: none;
-
   border-radius: 2px;
   border-color: blue;
 }

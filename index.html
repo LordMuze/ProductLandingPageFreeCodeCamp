@@ -9,9 +9,12 @@
   <link href="introcontainer.css" rel="stylesheet" type="text/css" />
   <link href="formContainer.css" rel="stylesheet" type="text/css" />
   <link href="productpricing.css" rel="stylesheet" type="text/css" />
+  <link href="youtube.css" rel="stylesheet" type="text/css" />
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');
+    /*@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');*/
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
 </style>
+
   <!--
 <meta ="viewport" content="width=device-width, initial-scale=1.0">
 -->
@@ -19,7 +22,7 @@
 
 <body>
   <header id="header">
-    <img src="https://cdn0.iconfinder.com/data/icons/basic-outline/64/icon-basic-set_59-cube-512.png" class="icon" />
+    <img src="./img/rubiksicon.png" class="icon" />
     <nav id="nav-bar">
       <ul>
         <li class="nav-link"><a href="">About</a></li>
@@ -28,22 +31,11 @@
       </ul>
     </nav>
   </header>
-  <div class="intro">
-    <div class="introContainer">
-      <p>Rubik's Cube</p>
-    </div>
-    <div class="desc">
-      <p>
-        "Usually we are saying only part of the truth" <br> <em>-Erno Rubik</em>
-      </p>
-      <button class="challenge">Cube it!</button>
-    </div>
 
-  </div>
   <div class="productPricingContainer" id="productPricingContainer">
-    <div id="productrubik">
-      <img src="https://img1.ecommerceventure.com/prodimage/ProductImage/800/64b607ab-4578-4b8b-a0e3-d0a6b0bc1580.jpg" class="threecubeimg" />
-      <div id="productcontent">
+    <div id="product-wrapper">
+      <img src="https://img1.ecommerceventure.com/prodimage/ProductImage/800/64b607ab-4578-4b8b-a0e3-d0a6b0bc1580.jpg" class="ProductImage" />
+      <div id="content-wrapper">
         <h3>Rubik's Cube 3x3</h3>
         <p>The Rubik’s Cube is a classic colour-matching puzzle that
           can be enjoyed at home or on the move. The original, classic 3x3 Cube is a
@@ -60,8 +52,8 @@
         <p>There are... wait for it... 43,252,003,274,489,856,000 ways of
           arranging the squares, and only one of these is the solution.
           Can you solve it?</p><br>
-        <a href="" target="formContainer" id="button">
-          <div>
+        <a href="" target="formContainer" id="button-wrapper">
+          <div class="button">
             Challenge Accepted!
           </div>
         </a>
@@ -69,32 +61,41 @@
     </div>
 
   </div>
+
+
+    <div class="youtube-wrapper">
+    <iframe src="https://www.youtube.com/embed/DZieo98VH78"frameborder="0"
+     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
+
   <!--Divider for code semantics, indicating area for product listing..-->
-  <div class="videoContainer" id="videoContainer">
-    <h1>Rubik's Cube Champion</h1>
-    <div id="video">
-      <iframe src="https://www.youtube.com/embed/XwNUmnDu1r8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div class="gif-wrapper" id="gif-wrapper1">
+    <div class="iframe-wrapper">
+      <iframe src="https://giphy.com/embed/W1Tgtk3Ft0vlUDLyDw?video=0" frameBorder="0" class="giphy-embed" allowFullScreen ></iframe>
     </div>
+    <div class="gifcontent-wrapper">
+    <h3>Benefits of Rubik's Cube</h3>
+    <p>The Rubik’s Cube is all about smart play and is guaranteed to improve your muscle memory and hand eye coordination.
+
+      A puzzle toy that is not only about fun but improving your motor and problem-solving skills. What are you waiting for? Go on play smart!
+    </p>
   </div>
-  <div class="formContainer" id="formContainer">
-    <img src="https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/09/25193704/CT_220918_RubiksCube_2245.jpg" id="formmedia" />
-    <div id="formsubmissioncontainer">
-      <h1>Follow us for more updates!</h1>
-      <form id="form">
-        <div class="form">
-          <div class="email">
-            <input type="email" id="email" placeholder="Your Email Here!" />
-          </div>
-          <div class="submit">
-            <button type="submit" form="form" id="submit">
-              <div class="iconbutton">
-                <img src="https://static.thenounproject.com/png/39130-200.png"/>
-              </div>
-            </button>
-          </div>
-        </div>
-      </form>
+
+  </div>
+  <div class="gif-wrapper" id="gif-wrapper2">
+
+    <div class="iframe-wrapper" id="iframe-wrapper2">
+      <iframe src="https://giphy.com/embed/H88VsX3qwXWKQ4VsNO" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
     </div>
+    <div class="gifcontent-wrapper">
+    <h3>Challenge yourself</h3>
+    <p>How quickly can you solve the Rubik’s Cube?
+      Maybe you soon could achieve the
+      fastest Rubik’s Cube time ever and be
+      crowned the King or Queen of Cubing?
+    </p>
+  </div>
+
   </div>
 </body>
 

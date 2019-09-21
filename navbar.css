@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 10;
   width: 100%;
-  background-color: white;
+  background-color: #2d3436;
   display: inline;
   top: 0;
 }
@@ -17,7 +17,7 @@
 }
 .nav-link > a{
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 .icon{
