@@ -10,6 +10,7 @@
   <link href="formContainer.css" rel="stylesheet" type="text/css" />
   <link href="productpricing.css" rel="stylesheet" type="text/css" />
   <link href="youtube.css" rel="stylesheet" type="text/css" />
+
   <style>
     /*@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One');*/
     @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
@@ -22,19 +23,22 @@
 
 <body>
   <header id="header">
-    <img src="./img/rubiksicon.png" class="icon" />
+    <img src="./img/rubiksicon.png" id="header-img" />
+
     <nav id="nav-bar">
-      <ul>
-        <li class="nav-link"><a href="">About</a></li>
-        <li class="nav-link"><a href="#videoContainer">How it works</a></li>
-        <li class="nav-link"><a href="#formContainer">Contact</a></li>
+      <ul class="list-wrapper">
+        <li class="nav-link"><a href=#productPricingContainer>About</a></li>
+        <li class="nav-link"><a href=#youtube-container>How it works</a></li>
+        <li class="nav-link"><a href=#formContainer>Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <div class="productPricingContainer" id="productPricingContainer">
     <div id="product-wrapper">
-      <img src="https://img1.ecommerceventure.com/prodimage/ProductImage/800/64b607ab-4578-4b8b-a0e3-d0a6b0bc1580.jpg" class="ProductImage" />
+
+      <img src="./img/Picture1.png" class="ProductImage" />
+      <!-- <img src="https://img1.ecommerceventure.com/prodimage/ProductImage/800/64b607ab-4578-4b8b-a0e3-d0a6b0bc1580.jpg" class="ProductImage" /> -->
       <div id="content-wrapper">
         <h3>Rubik's Cube 3x3</h3>
         <p>The Rubik’s Cube is a classic colour-matching puzzle that
@@ -52,22 +56,29 @@
         <p>There are... wait for it... 43,252,003,274,489,856,000 ways of
           arranging the squares, and only one of these is the solution.
           Can you solve it?</p><br>
-        <a href="" target="formContainer" id="button-wrapper">
+        <!-- button
+        <a href="" target="" id="button-wrapper">
           <div class="button">
             Challenge Accepted!
           </div>
         </a>
+      -->
       </div>
     </div>
 
   </div>
-
-
+  <div id="youtube-container">
     <div class="youtube-wrapper">
     <iframe src="https://www.youtube.com/embed/DZieo98VH78"frameborder="0"
-     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+     id="video"></iframe>
    </div>
-
+   <a href="" target="" id="button">
+     <div class="button-wrapper">
+       Challenge Accepted!
+     </div>
+   </a>
+ </div>
   <!--Divider for code semantics, indicating area for product listing..-->
   <div class="gif-wrapper" id="gif-wrapper1">
     <div class="iframe-wrapper">
@@ -96,6 +107,29 @@
     </p>
   </div>
 
+  </div>
+
+
+
+
+  <div class="formContainer" id="formContainer">
+    <div id="formsubmissioncontainer">
+      <h1>Follow us for more updates!</h1>
+      <form id="form">
+        <div class="form">
+          <div class="email">
+            <input type="email" id="email" placeholder="Your Email Here!" />
+          </div>
+          <div class="submit">
+            <button type="submit" form="form" id="submit">
+              <div class="iconbutton">
+                <img src="https://static.thenounproject.com/png/39130-200.png" />
+              </div>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
   </div>
 </body>
 

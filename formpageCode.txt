@@ -1,0 +1,22 @@
+<!--
+  <div class="formContainer" id="formContainer">
+    <img src="https://dotesports-media.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2018/09/25193704/CT_220918_RubiksCube_2245.jpg" id="formmedia" />
+    <div id="formsubmissioncontainer">
+      <h1>Follow us for more updates!</h1>
+      <form id="form">
+        <div class="form">
+          <div class="email">
+            <input type="email" id="email" placeholder="Your Email Here!" />
+          </div>
+          <div class="submit">
+            <button type="submit" form="form" id="submit">
+              <div class="iconbutton">
+                <img src="https://static.thenounproject.com/png/39130-200.png" />
+              </div>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+-->

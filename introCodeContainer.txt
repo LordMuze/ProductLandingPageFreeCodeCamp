@@ -1,0 +1,20 @@
+  <!--exclude from main code for design purposes -->
+  <!--
+  <div class="intro">
+    <div style="width:100%;height:0;padding-bottom:56%;position:relative;">
+      <iframe src="https://giphy.com/embed/W1Tgtk3Ft0vlUDLyDw?video=0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen />
+    </div>
+
+    <div class="introContainer">
+      <p>Rubik's Cube</p>
+    </div>
+    <div class="desc">
+      <p>
+        "Usually we are saying only part of the truth" <br> <em>-Erno Rubik</em>
+      </p>
+      <button class="challenge">Cube it!</button>
+    </div>
+
+  </div>
+
+-->

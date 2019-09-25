@@ -1,55 +1,44 @@
 .formContainer{
+  background-image: url("./img/formpage.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  min-height: 130vh;
+
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 
-  background-color: #252625;
-
-
-}
-
-.form{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-
-  border-color: red;
-  border-width: 2px;
-  border-style: solid;
-  margin-top: 2em;
-}
-
-.formContainer > h1{
-  display: inline-block;
-  color: blue;
 }
 #formsubmissioncontainer{
-  margin: auto;
-  margin-top: 1em;
-}
-#email{
-/**/
-}
-#submit{
-/**/
-}
-.email{
+  display: block;
+  background-color: #ecf0f1;
+  padding: 1em;
 
+  border-radius: 2px;
+  border-width: 1px;
+  opacity: 0.8;
 }
-.submit{
-/*https://static.thenounproject.com/png/39130-200.png*/ /*icon*/
-
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
 }
-
-.headerInline{
-
+.formsubmissioncontainer > h1{
+  text-align: center;
 }
 .iconbutton > img{
   height: 1em;
   width: 1em;
 }
 #formmedia{
-
   width: 60%;
   height: 60%;
+}
+
+@media only screen and (max-width: 990px){
+  .formContainer{
+    background-image: none;
+    background-color: #8e44ad;
+  }
 }

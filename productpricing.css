@@ -1,41 +1,39 @@
 .productPricingContainer{
   font-size: 100%;
+  margin: 4em;
   margin-top: 70px;
+  margin-bottom: 0;
 }
 
 #product-wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2em;
+  margin-bottom: inherit;
   padding: 3em;
+  flex-wrap: wrap;
 }
 #content-wrapper{
   text-align: center;
 }
 #content-wrapper > p{
-  color: black;
+  color: white;
   font-weight: normal;
-  max-width: 550px;
+  max-width: 400px;
   text-align: left;
+  font-size: 80%;
 }
 #content-wrapper > h3{
-  color: black;
+  color: white;
   font-size: 300%;
 }
 .ProductImage{
-  width: 40%;
-  height: 40%;
+  width: 375px;
+  height: auto;
 }
-#button-wrapper{
-  text-decoration: none;
-}
-.button{
-  max-width: 200px;
-  background-color: blue;
-  padding: 0.8em;
-  color: white;
-  font-size: 120%;
-  border-radius: 2px;
-  border-color: blue;
+@media screen and (max-width: 600px){
+  .ProductImage{
+    margin: auto;
+  }
 }
